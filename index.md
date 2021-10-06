@@ -1,6 +1,11 @@
 ---
 layout: math 
 ---
+
+
+
+[Some](about)
+
 $$
 \begin{bmatrix}
 1 & 2 & 3 \\
@@ -12,7 +17,3 @@ $$
 ## Shit 2
 ### Shit 3
 ## Bullshitt
-
-
-
-[Some](about)
