@@ -1,1 +1,29 @@
-theme: jekyll-theme-minimal
+title: As minhas notas
+email: francisco.perestrelo.pontes@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Shit
+baseurl: "/my_notes.github.io" # the subpath of your site, e.g. /blog
+url: "https://p1ng07.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  p1ng07
+
+
+# Build settings
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-relative-links
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
