@@ -1,0 +1,301 @@
+<html lang="en"><head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+        <title>As minhas notas | Shit</title>
+        <meta name="generator" content="Jekyll v3.9.0">
+        <meta property="og:title" content="As minhas notas">
+        <meta property="og:locale" content="en_US">
+        <meta name="description" content="Shit">
+        <meta property="og:description" content="Shit">
+        <link rel="canonical" href="http://localhost:4000/my_notes.github.io/">
+        <meta property="og:url" content="http://localhost:4000/my_notes.github.io/">
+        <meta property="og:site_name" content="As minhas notas">
+        <meta name="twitter:card" content="summary">
+        <meta property="twitter:title" content="As minhas notas">
+        <script type="application/ld+json">
+            {"description":"Shit","@type":"WebSite","headline":"As minhas notas","url":"http://localhost:4000/my_notes.github.io/","name":"As minhas notas","@context":"https://schema.org"}</script>
+        <!-- End Jekyll SEO tag -->
+        <link rel="stylesheet" href="/my_notes.github.io/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/my_notes.github.io/feed.xml" title="As minhas notas">
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+        <body><header class="site-header" role="banner">
+
+                <div class="wrapper"><a class="site-title" rel="author" href="/my_notes.github.io/">As minhas notas</a><nav class="site-nav">
+                        <input type="checkbox" id="nav-trigger" class="nav-trigger">
+                        <label for="nav-trigger">
+                            <span class="menu-icon">
+                                <svg viewBox="0 0 18 15" width="18px" height="15px">
+                                    <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+                                </svg>
+                            </span>
+                        </label>
+
+                        <div class="trigger"><a class="page-link" href="/my_notes.github.io/about/">About</a></div>
+                    </nav></div>
+            </header>
+            <main class="page-content" aria-label="Content">
+                <div class="wrapper">
+                    <div class="home"><h1 id="matriz">Matriz</h1>
+
+<ol>
+  <li><a href="#noção-de-matriz">Noção de matriz</a>
+    <ul>
+      <li><a href="#representação-de-uma-matriz">Representação de uma matriz</a></li>
+      <li><a href="#diagonais-de-uma-matriz">Diagonais de uma matriz</a></li>
+    </ul>
+  </li>
+  <li><a href="#tipos-de-matrizes">Tipos de matrizes</a>
+    <ul>
+      <li><a href="#triangular-superior">Triangular superior</a></li>
+      <li><a href="#triangular-inferior">Triangular inferior</a></li>
+      <li><a href="#diagonal">Diagonal</a></li>
+      <li><a href="#identidade">Identidade</a></li>
+    </ul>
+  </li>
+  <li><a href="#operações-com-matrizes">Operações com matrizes</a>
+    <ul>
+      <li><a href="#transposição">Transposição</a></li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="noção-de-matriz">Noção de matriz</h2>
+
+<p>Uma matriz é qualquer tabela com <strong>\(mxn\) elementos</strong>, \(m\)  sendo linhas
+, e \(n\) sendo colunas.</p>
+
+<p>Exemplo de <strong>matriz</strong>:</p>
+
+\[A = \begin{bmatrix}
+1 &amp; 3 &amp; 5 \\
+2 &amp; 7 &amp; 6 \\
+4 &amp; 0 &amp; 8 \\
+\end{bmatrix}\]
+
+<h3 id="representação-de-uma-matriz">Representação de uma matriz</h3>
+
+<p>Uma matriz é representada por \(A = [aij]mxn\) ou \(A = (aij)mxn\).<br />
+Em caso de dimensão subentendida: \(A = [aij]\)</p>
+
+<p>Duas matrizes dizem-se iguais quandos têm as mesmas entradas nas mesmas posições.</p>
+
+<h3 id="diagonais-de-uma-matriz">Diagonais de uma matriz</h3>
+
+\[A = \begin{bmatrix}
+\color{green}{1} &amp; 3 &amp; \color{red}{5} \\
+2 &amp; \color{yellow}{7} &amp; 6 \\
+\color{red}{4} &amp; 0 &amp; \color{green}{8} \\
+\end{bmatrix}
+\\
+\color{green}{Diagonal Principal} \\ 
+\color{Red}{Diagonal Secundária} \\\]
+
+<h2 id="tipos-de-matrizes">Tipos de matrizes</h2>
+
+<p>Dada matriz \(A = [aij]mxn\):</p>
+
+<ul>
+  <li>A é linha se \(m = 1\);</li>
+  <li>A é coluno se \(n = 1\);</li>
+  <li>A é quadrada se \(m = n\), dizemos que é matriz de ordem \(n\);</li>
+  <li>A é retangular se \(m \neq n\);</li>
+</ul>
+
+<h3 id="triangular-superior">Triangular superior</h3>
+
+<p>Dizemos que A é <strong>triangular superior</strong> se, \(aij = 0, i &gt; j\).</p>
+
+\[A = \begin{bmatrix}
+1 &amp; 3 &amp; 5 \\
+\color{red}{0} &amp; 7 &amp; 6 \\
+\color{red}{0} &amp; \color{red}{0} &amp; 8 \\
+\end{bmatrix}\]
+
+<h3 id="triangular-inferior">Triangular inferior</h3>
+
+<p>Dizemos que A é <strong>triangular inferior</strong> se, \(aij = 0, i &lt; j\).</p>
+
+\[A = \begin{bmatrix}
+1 &amp; \color{red}{0} &amp; \color{red}{0} \\
+2 &amp; 7 &amp; \color{red}{0} \\
+4 &amp; 0 &amp; 8 \\
+\end{bmatrix}\]
+
+<h3 id="diagonal">Diagonal</h3>
+
+<p>Dizemos que A é <strong>diagonal</strong> se \(a[ij] = 0, i \neq j\).</p>
+
+\[A = \begin{bmatrix}
+1 &amp; \color{red}{0} &amp; \color{red}{0} \\
+\color{red}{0} &amp; 7 &amp; \color{red}{0} \\
+\color{red}{0} &amp; \color{red}{0} &amp; 8 \\
+\end{bmatrix}\]
+
+<h3 id="identidade">Identidade</h3>
+
+<p>Dizemos que A é <strong>identidade</strong> se \(aij=1, i=j\).</p>
+
+\[A = \begin{bmatrix}
+\color{green}{1} &amp; 4 &amp; 5 \\
+5 &amp; \color{green}{1} &amp; 6 \\
+7 &amp; 9 &amp; \color{green}{1} \\ 
+\end{bmatrix}\]
+
+<h2 id="operações-com-matrizes">Operações com matrizes</h2>
+
+<h3 id="transposição">Transposição</h3>
+<p>Chama-se <strong>transposta</strong> A à matriz que se obtém de A <strong>trocando as linhas pelas
+colunas, \(A^T\).</strong></p>
+
+<p>Exemplos:</p>
+
+\[B = \begin{bmatrix}
+2 &amp; 1 &amp; 5 \\
+1 &amp; 0 &amp; 4 \\
+5 &amp; 4 &amp; 6 \\
+\end{bmatrix}
+
+B^T = \begin{bmatrix}
+2 &amp; 1 &amp; 5 \\
+1 &amp; 0 &amp; 4 \\
+5 &amp; 4 &amp; 6 \\
+\end{bmatrix}\]
+
+\[C = \begin{bmatrix}
+0 &amp; 3 &amp; -5 \\
+-3 &amp; 0 &amp; 4 \\
+5 &amp; 4 &amp; 6 \\
+\end{bmatrix}
+
+C^T = \begin{bmatrix}
+0 &amp; -3 &amp; 5 \\
+3 &amp; 0 &amp; -4 \\
+-5 &amp; -4 &amp; 0 \\
+\end{bmatrix}\]
+
+<p>Diz-se que \(B\) é <strong>simétrico</strong> pois \(B=B^T\). <br />
+Diz-se que \(C\) é <strong>antisimétrico</strong> pois \(C=-C^T\). \</p>
+
+<h3 id="adição-e-multiplicação-por-escalar">Adição e multiplicação por escalar</h3>
+
+\[A + B = [aij + bij]\]
+
+\[\alpha A = [\alpha . aji]mxn\]
+
+<h3 id="traço">Traço</h3>
+
+<p>Chama-se <strong>traço</strong> à soma de entradas da diagonal principal, \(tr(A)\).</p>
+
+\[A = \begin{bmatrix}
+\color{green}{1} &amp; 3 &amp; -5 \\
+-3 &amp; \color{green}{2} &amp; 4 \\
+5 &amp; -4 &amp; \color{green}{3} \\
+\end{bmatrix} 
+\\
+\color{green}{tr(A)} = 1+2+3 = 6\\\]
+
+<h3 id="multiplicação">Multiplicação</h3>
+
+<p>\(A . B\) só é possível quando \(An = Bm\). <br />
+O processo é multiplicar todas as linhas de \(A\) pelas colunas de \(B\).</p>
+
+\[\begin{bmatrix}
+\color{red}1 &amp; \color{red}2 &amp; \color{red}3 \\
+\color{green}{-1} &amp; \color{green}{0} &amp; \color{green}{1} \\
+1 &amp; 2 &amp; -1 \\
+\end{bmatrix}
+\times
+\begin{bmatrix}
+\color{red}5 &amp; \color{green}{-1}  \\
+\color{red}0 &amp; \color{green}{2} \\
+\color{red}1 &amp; \color{green}{3} \\
+\end{bmatrix}
+=
+\begin{bmatrix}
+\color{red}8 &amp; -1  \\
+-4 &amp; \color{green}{4} \\
+4 &amp; 0 \\
+\end{bmatrix}
+\\
+\begin{pmatrix}
+\color{red}{1\times5+2\times0+3\times1} &amp; -1+2\times2+3\times3\\
+-5+0\times5+1 &amp; \color{green}{1+0+3} \\
+1\times5+2\times0+1\times1 &amp; -1+4-3 \\
+\end{pmatrix}\]
+
+<h2 id="teoremas">Teoremas</h2>
+
+<ul>
+  <li><strong>Comutatividade de adição</strong>, \(A+B=B+A\)</li>
+  <li><strong>Associatividade da adição</strong>, \(A+(B+C) + (A+B)+C\)</li>
+  <li><strong>Matriz nula</strong>, \(A+0 = 0+A = A\)</li>
+  <li><strong>Existência de simétricos</strong>, simétrica de \(A + (-A) = 0\)</li>
+</ul>
+
+<p>Sejam \(\alpha\) e \(\beta\) escalares:</p>
+<ul>
+  <li>\(\alpha (A+B) = \alpha A+\alpha B\) e \((\alpha + \beta)A = \alpha A + \beta A\)</li>
+  <li>
+\[\alpha (\beta A) = (\alpha \beta) A\]
+  </li>
+  <li>
+\[A = A \alpha\]
+  </li>
+</ul>
+
+<p>Desde que as operações sejam possíveis:</p>
+<ul>
+  <li>
+\[(A+B)^T = A^T + B^T\]
+  </li>
+  <li>
+\[(\alpha A)^T = \alpha (A^T)\]
+  </li>
+  <li>
+\[(A^T)^T = A\]
+  </li>
+</ul>
+
+<p>Sejam \(A\) e \(B\) quadradas de ordem n e K então:</p>
+<ul>
+  <li>
+\[tr(A+B) = tr(A)+tr(B)\]
+  </li>
+  <li>
+\[tr(kA)=ktr(A)\]
+  </li>
+  <li>
+\[tr(A^T) = tr(A)\]
+  </li>
+</ul>
+
+ </div>
+                </div>
+            </main><footer class="site-footer h-card">
+                <data class="u-url" href="/my_notes.github.io/"></data>
+
+                <div class="wrapper">
+
+                    <h2 class="footer-heading">As minhas notas</h2>
+
+                    <div class="footer-col-wrapper">
+                        <div class="footer-col footer-col-1">
+                            <ul class="contact-list">
+                                <li class="p-name">As minhas notas</li><li><a class="u-email" href="mailto:francisco.perestrelo.pontes@gmail.com">francisco.perestrelo.pontes@gmail.com</a></li></ul>
+                        </div>
+
+                        <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/p1ng07"><svg class="svg-icon"><use xlink:href="/my_notes.github.io/assets/minima-social-icons.svg#github"></use></svg> <span class="username">p1ng07</span></a></li><li><a href="https://www.twitter.com/jekyllrb"><svg class="svg-icon"><use xlink:href="/my_notes.github.io/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">jekyllrb</span></a></li></ul>
+                        </div>
+
+                        <div class="footer-col footer-col-3">
+                            <p>Shit</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </footer>
+
+
+
+        </body></html>
