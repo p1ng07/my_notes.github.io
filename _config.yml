@@ -9,7 +9,7 @@ github_username:  p1ng07
 
 
 # Build settings
-markdown: markdown
+markdown: kramdown
 kramdown:
   math_engine: mathjax
 theme: minima
