@@ -18,4 +18,3 @@ title: Calculo 1
 ## Lista de aulas
 
 1. [Noção de matriz e operações básicas](aula1)
-
