@@ -2,7 +2,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
-        <title>As minhas notas | Shit</title>
+        <title>As minhas notas</title>
         <meta name="generator" content="Jekyll v3.9.0">
         <meta property="og:title" content="As minhas notas">
         <meta property="og:locale" content="en_US">
@@ -17,7 +17,7 @@
             {"description":"Shit","@type":"WebSite","headline":"As minhas notas","url":"http://localhost:4000/my_notes.github.io/","name":"As minhas notas","@context":"https://schema.org"}</script>
         <!-- End Jekyll SEO tag -->
         <link rel="stylesheet" href="/my_notes.github.io/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/my_notes.github.io/feed.xml" title="As minhas notas">
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+        <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
         <body><header class="site-header" role="banner">
 
                 <div class="wrapper"><a class="site-title" rel="author" href="/my_notes.github.io/">As minhas notas</a><nav class="site-nav">
@@ -35,54 +35,75 @@
             </header>
             <main class="page-content" aria-label="Content">
                 <div class="wrapper">
-                    <div class="home"><hr />
+                    <div class="home"><h1 id="multiplicação">Multiplicação</h1>
 
-<h2 id="informações-sobre-curso">Informações sobre curso</h2>
-<h3 id="professores">Professores:</h3>
-<ul>
-  <li>morgado.dias.uma@gmail.com;</li>
-</ul>
+<p>\(A . B\) só é possível quando \(An = Bm\). <br />
+O processo é multiplicar todas as linhas de \(A\) pelas colunas de \(B\).</p>
 
-<h3 id="frequências">Frequências:</h3>
-<ul>
-  <li>4/12, 9:00;</li>
-  <li>2/1, 14:00;</li>
-</ul>
+\[\begin{bmatrix}
+\color{red}1 &amp; \color{red}2 &amp; \color{red}3 \\
+\color{green}{-1} &amp; \color{green}{0} &amp; \color{green}{1} \\
+1 &amp; 2 &amp; -1 \\
+\end{bmatrix}
+\times
+\begin{bmatrix}
+\color{red}5 &amp; \color{green}{-1}  \\
+0 &amp; 2\\
+1 &amp; 3\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+\color{red}8 &amp; \color{green}{12}  \\
+-4 &amp; 4 \\
+4 &amp; 0 \\
+\end{bmatrix}
+\\
+\begin{pmatrix}
+\color{red}{1\times5+2\times0+3\times1} &amp; \color{green}{-1+2\times2+3\times3}\\
+-5+0\times5+1 &amp; 1+0+3 \\
+1\times5+2\times0+1\times1 &amp; -1+4-3 \\
+\end{pmatrix}\]
 
-<p>Avaliação:</p>
-<ul>
-  <li>Trabalhos práticos 15%;</li>
-  <li>Projeto 10% e 15%;</li>
-  <li>Frequências 60%;</li>
-</ul>
+<h2 id="pontência-de-uma-matriz">Pontência de uma matriz</h2>
 
-<hr />
+<p>A exponênciação de uma matriz é apenas a multiplicação da matriz por si mesma.</p>
 
-<h2 id="lista-de-aulas">Lista de aulas</h2>
+\[A = \begin{bmatrix}
+1 &amp; 2 \\
+2 &amp; 3 \\
+\end{bmatrix}
 
+A^2 = \begin{bmatrix}
+1 &amp; 2 \\
+2 &amp; 3 \\
+\end{bmatrix}
+\times
+\begin{bmatrix}
+1 &amp; 2 \\
+2 &amp; 3 \\
+\end{bmatrix}
+=
+\begin{bmatrix}
+ 5 &amp; 8 \\
+ 8 &amp; 13 \\
+\end{bmatrix}\]
+
+<h1 id="comutáveis">Comutáveis</h1>
+
+<p>Duas matrizes dizem-se comutáveis se \(AB = BA\).</p>
  </div>
                 </div>
             </main><footer class="site-footer h-card">
                 <data class="u-url" href="/my_notes.github.io/"></data>
-
                 <div class="wrapper">
-
                     <h2 class="footer-heading">As minhas notas</h2>
-
                     <div class="footer-col-wrapper">
                         <div class="footer-col footer-col-1">
                             <ul class="contact-list">
                                 <li class="p-name">As minhas notas</li><li><a class="u-email" href="mailto:francisco.perestrelo.pontes@gmail.com">francisco.perestrelo.pontes@gmail.com</a></li></ul>
                         </div>
-                        <div class="footer-col footer-col-3">
-                            <p>Shit</p>
-                        </div>
                     </div>
-
                 </div>
-
             </footer>
-
-
-
-        </body></html>
+        </body>
+</html>

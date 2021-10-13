@@ -1,0 +1,275 @@
+<html lang="en"><head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+        <title>As minhas notas</title>
+        <meta name="generator" content="Jekyll v3.9.0">
+        <meta property="og:title" content="As minhas notas">
+        <meta property="og:locale" content="en_US">
+        <meta name="description" content="Shit">
+        <meta property="og:description" content="Shit">
+        <link rel="canonical" href="http://localhost:4000/my_notes.github.io/">
+        <meta property="og:url" content="http://localhost:4000/my_notes.github.io/">
+        <meta property="og:site_name" content="As minhas notas">
+        <meta name="twitter:card" content="summary">
+        <meta property="twitter:title" content="As minhas notas">
+        <script type="application/ld+json">
+            {"description":"Shit","@type":"WebSite","headline":"As minhas notas","url":"http://localhost:4000/my_notes.github.io/","name":"As minhas notas","@context":"https://schema.org"}</script>
+        <!-- End Jekyll SEO tag -->
+        <link rel="stylesheet" href="/my_notes.github.io/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/my_notes.github.io/feed.xml" title="As minhas notas">
+        <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+        <body><header class="site-header" role="banner">
+
+                <div class="wrapper"><a class="site-title" rel="author" href="/my_notes.github.io/">As minhas notas</a><nav class="site-nav">
+                        <input type="checkbox" id="nav-trigger" class="nav-trigger">
+                        <label for="nav-trigger">
+                            <span class="menu-icon">
+                                <svg viewBox="0 0 18 15" width="18px" height="15px">
+                                    <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+                                </svg>
+                            </span>
+                        </label>
+
+                        <div class="trigger"><a class="page-link" href="/my_notes.github.io/about/">About</a></div>
+                    </nav></div>
+            </header>
+            <main class="page-content" aria-label="Content">
+                <div class="wrapper">
+                    <div class="home"><h1 id="matrizes-em-escada">Matrizes em escada</h1>
+
+<p>Diz-se que uma matriz \(A_{m\times n}\), é uma matrize em escada se:</p>
+<ul>
+  <li>Por baixo do primeiro elemento de não nulo de coada linha da matriz e por
+baixo dos elementos anteriores da mesma linha, todas as entradas são 
+iguais a zero.</li>
+  <li>Não existem linhas totalmente nulas seguidas de linhas nulas.</li>
+</ul>
+
+\[A = \begin{bmatrix}
+1 &amp; 2 &amp; 3 &amp; 0 \\
+0 &amp; 0 &amp; 4 &amp; 5 \\
+0 &amp; 0 &amp; 0 &amp; 4 \\
+0 &amp; 0 &amp; 0 &amp; 0 \\
+\end{bmatrix}\]
+
+<p>A é uma matriz em escada.</p>
+
+<h2 id="operações-elementares">Operações elementares</h2>
+
+<p>Seja \(A\) uma matriz.Chamamos <strong>operações elementares</strong> sobre \(A\) a uma 
+operação dos seguintes tipos:</p>
+<ul>
+  <li>Troca entre si de duas linhas ou colunas, \(L_{j} &lt;-&gt; L_{i},C_{j} &lt;-&gt; C_{i}\).</li>
+  <li>Multiplicar uma linha ou coluna por um <strong>escalar</strong>, \(\alpha L_{i},
+\alpha C_{i}\).</li>
+  <li><strong>Adicionar</strong> a uma linha ou coluna, entrada a entrada, uma outra linha ou coluna
+<strong>multiplicada por um escalar não nulo</strong>, \(\alpha L_{i} + L_{j}\) a nova linha
+será \(j\).</li>
+</ul>
+
+<h2 id="caraterística">Caraterística</h2>
+
+<p>Seja \(A\) uma matriz e \(B\) uma matriz em escada de linhas obtida de \(A\) 
+através de operações elementares sobre \(A\).
+A <strong>caraterística</strong> de \(A\) é o número de linhas não nulas da matriz \(B\). A 
+caraterística de A denota-se \(r(A)\) ou \(r_{A}\).</p>
+
+\[A = \begin{bmatrix}
+1 &amp; 2 &amp; 3 &amp; 0 \\
+0 &amp; 0 &amp; 4 &amp; 5 \\
+0 &amp; 0 &amp; 0 &amp; 4 \\
+0 &amp; 0 &amp; 0 &amp; 0 \\
+\end{bmatrix}\]
+
+\[r(A) = 3\]
+
+<h1 id="sistemas-de-equações-lineares-resolução-usando-o-método-de-gauss">Sistemas de equações lineares, Resolução usando o método de Gauss.</h1>
+
+<p>Um sistema de equações lineares (todas as equações são de primeiro grau) é:</p>
+<ul>
+  <li><strong>Impossível</strong> se não tem solução;</li>
+  <li><strong>Possível determinado</strong> se tem uma única solução;</li>
+  <li><strong>Possível indeterminado</strong> se tem mais do que uma solução;</li>
+</ul>
+
+<p>Exemplos de sistema de equações lineares:</p>
+
+<p>Impossível:
+\(\begin{equation}
+    \begin{cases}
+        x + y = 1\\
+        x + y = 2\\
+    \end{cases}
+\end{equation}\)</p>
+
+<p>Possível determinado:
+\(\begin{equation}
+    \begin{cases}
+        x + y = 2\\
+        x - y = 0
+    \end{cases}
+\end{equation}\)</p>
+
+<p>Possível indeterminado:
+\(\begin{equation}
+    \begin{cases}
+        x+y=1\\
+        2x+2y=2
+    \end{cases}
+\end{equation}\)</p>
+
+<p>Dado o <strong>sistema</strong> \(m\):</p>
+
+\[\begin{equation}
+    \begin{cases}
+        a_{11}x_{1} = b_{1}\\
+        a_{m\times n}x_{n} = b_{m}
+    \end{cases}
+\end{equation}\]
+
+<p>Chamamos <strong>forma matricial</strong> do sistema à igualdade de matrizes:</p>
+
+\[AX = B\]
+
+\[A = \begin{bmatrix}
+a_{11} &amp; ... &amp; a_{1n} \\
+a_{21} &amp; ... &amp; a_{2n} \\
+a_{n1} &amp; ... &amp; a_{mn}
+\end{bmatrix}\]
+
+\[X = \begin{bmatrix}
+x_{1}\\
+x_{2}\\
+x_{n}
+\end{bmatrix}\]
+
+\[B=\begin{bmatrix}
+b_{1}\\
+b_{2}\\
+b_{n}
+\end{bmatrix}
+B=\begin{bmatrix}
+b_{1}\\
+b_{2}\\
+b_{n}
+\end{bmatrix}\]
+
+<p>Dizemos que \(A\) é a <strong>matriz dos coeficientes</strong>, \(X\) é a matriz das 
+incógnitas, e \(B\) é a <strong>matriz dos termos independentes</strong>.</p>
+
+\[\begin{equation}
+\color{red}{2}\color{green}x + \color{green}y = \color{blue}1
+\end{equation}
+\\
+\color{red}{\text{Coeficiente}} \\ 
+\color{green}{\text{incógnita}} \\ 
+\color{blue}{\text{termo independente}} \\\]
+
+<h2 id="matriz-ampliada">Matriz ampliada</h2>
+
+<p>Chamamos à matriz</p>
+
+\[[A|B] = \left[ 
+\begin{array}{cccc|c}
+a_{11} &amp; a_{12} &amp; ... &amp; a_{1n} &amp; b_1 \\
+... &amp; ... &amp; ... &amp; \vdots &amp; b_{2} \\
+a_{n1} &amp; a_{n1} &amp; ... &amp; a_{mn} &amp; b_n
+\end{array} 
+\right]\]
+
+<p>A <strong>matriz ampliada do sistema</strong>.</p>
+
+<h3 id="teoremas">Teoremas</h3>
+
+<p>Seja \(A\) uma matriz de ordem \(k\times n\). Considere um sistema \(AX=B\).<br />
+Seja \(m=r([A|B])\) o sistema considerado é:</p>
+<ul>
+  <li>Impossível se \(r(A)=m\);</li>
+  <li>Possível determinado se \(r(A)=m=n\);</li>
+  <li>Possível indeterminado se \(r(A)=m&lt;n\);</li>
+</ul>
+
+\[n = \text{Número de incógnitas}\]
+
+<p><strong>Impossível</strong>:</p>
+
+\[\left[
+\begin{array}{cc|c}
+1 &amp; 1 &amp; 1 \\
+1 &amp; 1 &amp; 2
+\end{array} 
+\right]
+\xrightarrow{-L_1+L_2}
+\left[
+\begin{array}{cc|c}
+1 &amp; 1 &amp; 1 \\
+0 &amp; 0 &amp; 1
+\end{array} 
+\right]
+\\
+r(A) &lt; r([A|B])\]
+
+<p><strong>Possível determinado</strong>:</p>
+
+\[\left[
+\begin{array}{cc|c}
+1 &amp; 1 &amp; 1 \\
+1 &amp; -1 &amp; 0
+\end{array} 
+\right]
+\xrightarrow{-L_1+L_2}
+\left[
+\begin{array}{cc|c}
+1 &amp; 1 &amp; 2 \\
+0 &amp; -2 &amp; -2
+\end{array} 
+\right]
+\\
+r(A) = r([A|B])\]
+
+<p><strong>Possível indeterminado</strong>:</p>
+
+\[\left[
+\begin{array}{cc|c}
+1 &amp; 1 &amp; 1 \\
+2 &amp; 2 &amp; 2
+\end{array} 
+\right]
+\xrightarrow{-L_1+L_2}
+\left[
+\begin{array}{cc|c}
+1 &amp; 1 &amp; 1 \\
+0 &amp; 0 &amp; 0
+\end{array} 
+\right]
+\\
+r(A) &lt; r([A|B])\]
+
+<h3 id="grau-de-indeterminanção">Grau de indeterminanção</h3>
+
+<p>O grau de indeterminação de um sistema é dado por: \(n-r(A)\)</p>
+
+<h2 id="método-de-eliminação-de-gauss">Método de eliminação de Gauss</h2>
+
+<p>É um processo de resolução de equações lineares \(AX=B\) que começa pela 
+<strong>transformação da matriz ampliada do sistema</strong> \([A|B]\) numa matriz \([A'|B]\) 
+<strong>em escada de linhas</strong>, através das operações elementares.<br />
+Depois tentamos <strong>transformar numa matriz diagonal</strong> para conseguir 
+as variáveis.<br />
+O professor recomenda <strong>usar só transformações de linhas e não colunas</strong>.</p>
+ </div>
+                </div>
+            </main><footer class="site-footer h-card">
+                <data class="u-url" href="/my_notes.github.io/"></data>
+                <div class="wrapper">
+                    <h2 class="footer-heading">As minhas notas</h2>
+                    <div class="footer-col-wrapper">
+                        <div class="footer-col footer-col-1">
+                            <ul class="contact-list">
+                                <li class="p-name">As minhas notas</li><li><a class="u-email" href="mailto:francisco.perestrelo.pontes@gmail.com">francisco.perestrelo.pontes@gmail.com</a></li></ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </body>
+</html>

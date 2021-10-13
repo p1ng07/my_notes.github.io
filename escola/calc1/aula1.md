@@ -173,37 +173,6 @@ A = \begin{bmatrix}
 \color{green}{tr(A)} = 1+2+3 = 6\\
 $$
 
-### Multiplicação
-
-$$ A . B $$ só é possível quando $$ An = Bm $$. \\
-O processo é multiplicar todas as linhas de $$A$$ pelas colunas de $$B$$.
-
-$$
-\begin{bmatrix}
-\color{red}1 & \color{red}2 & \color{red}3 \\
-\color{green}{-1} & \color{green}{0} & \color{green}{1} \\
-1 & 2 & -1 \\
-\end{bmatrix}
-\times
-\begin{bmatrix}
-\color{red}5 & \color{green}{-1}  \\
-\color{red}0 & \color{green}{2} \\
-\color{red}1 & \color{green}{3} \\
-\end{bmatrix}
-=
-\begin{bmatrix}
-\color{red}8 & -1  \\
--4 & \color{green}{4} \\
-4 & 0 \\
-\end{bmatrix}
-\\
-\begin{pmatrix}
-\color{red}{1\times5+2\times0+3\times1} & -1+2\times2+3\times3\\
--5+0\times5+1 & \color{green}{1+0+3} \\
-1\times5+2\times0+1\times1 & -1+4-3 \\
-\end{pmatrix}
-$$
-
 ## Teoremas 
 
 - __Comutatividade de adição__, $$A+B=B+A$$  

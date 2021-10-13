@@ -18,3 +18,5 @@ title: Calculo 1
 ## Lista de aulas
 
 1. [Noção de matriz e operações básicas](aula1)
+2. [Multiplicação de matriz](aula2)
+3. [Matrizes em escada, sistemas de equações lineares, método de gauss](aula3)
