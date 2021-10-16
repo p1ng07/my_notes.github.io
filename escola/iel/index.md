@@ -16,3 +16,12 @@ title: Introdução à eletrónica
 
 ## Lista de aulas
 
+1. [Campo, corrente, carga elética](aula1)
+1. [Grandezas elétricas](aula2)
+
+## Sistema internacional
+![Alt text](prefixos.png)
+![Alt text](SI.png)
+![Alt text](uni_si.png)
+
+
