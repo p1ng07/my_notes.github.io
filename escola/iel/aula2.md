@@ -4,7 +4,6 @@ header-includes:
   - \usepackage{asmath}
 ---
 
-
 1. [Grandezas elétricas](#grandezas-elétricas)
    * [Unidades](#unidades)
    * [Corrente elétrica](#corrente-elétrica)
@@ -12,6 +11,14 @@ header-includes:
    * [Efeito de Joule](#efeito-de-joule)
    * [Resistência](#resistência)
      * [Resistivade](#resistivade)
+   * [Lei de Joule e Lei de Ohm](#lei-de-joule-e-lei-de-ohm)
+   * [Força eletromotriz](#força-eletromotriz)
+   * [Potência](#potência)
+     * [Fornecer/Receber potência](#fornecer/receber-potência)
+   * [Circuitos](#circuitos)
+   * [Ligações](#ligações)
+     * [Série](#série)
+     * [Paralelo](#paralelo)
 
 ## Grandezas elétricas
 
@@ -79,6 +86,10 @@ $$
 
 $$\rho$$, é a resistividade de dado material.
 
+Tabela de resistências:
+
+
+![Tabela de resistências](../../res/iel/resistencias.png)
 #### Resistivade
 
 A caraterística condutora de cada material pode ser dada por $$\rho$$, ou o
@@ -93,6 +104,67 @@ $$
 $$\alpha$$ sendo o coeficiente de temperatura do material.
 
 Na maioria dos materiais a resistividade aumenta com a temperatura.
+
+### Lei de Joule e Lei de Ohm
+
+Lei de Joule:
+
+$$P = RI^2$$
+
+Lei de Ohm:
+
+$$V = RI$$
+
+### Força eletromotriz
+
+Define-se pela energia produzida pela fonte no seu interior por unidade de 
+carga:
+
+$$E = \frac{W_p}{Q}$$
+
+Tem o sentido coincidente da corrent, ou seja o inverso da Resistência.
+
+### Potência
+
+É a razão entre a energia fornecida/consumida no aparelho e o tempo gasto nessa
+ação.
+
+Usando a lei de Joule e a lei de Ohm, podemos derivar três fórmulas para 
+potência:
+
+$$
+P=VI\\
+P=\frac{V^2}{R}\\
+P=RI^2
+$$
+
+#### Fornecer/Receber potência
+
+Sabemos que um dispositivo está a fornecer potência quando, $$P=VI<0$$.
+
+Sabemos que um dispositivo está a receber potência quando, $$P=VI>0$$.
+
+### Circuitos
+
+Elemento ativo - Fornece energia  
+Elemento passivo - Gasta energia  
+
+### Ligações
+
+#### Série
+
+Um circuito é em série se todos os componentes são percorrridos pela mesma corrente.
+
+Os elementos em série constituem um __ramo__.
+
+Um conjunto de ramos chama-se __malha__.
+
+#### Paralelo
+
+Dois ou mais elementos estão ligados em paralelo se todos estão sujeitos à mesma
+tensão ou diferença de potencial.
+
+Chama-se nó ao ponto em que se ligam 3 ou mais ramos.
 
 
 
