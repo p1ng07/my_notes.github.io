@@ -6,7 +6,6 @@ header-includes:
 
 # Matriz
 
-
 1. [Noção de matriz](#noção-de-matriz)
    * [Representação de uma matriz](#representação-de-uma-matriz)
    * [Diagonais de uma matriz](#diagonais-de-uma-matriz)
@@ -19,7 +18,6 @@ header-includes:
    * [Transposição](#transposição)
    * [Adição e multiplicação por escalar](#adição-e-multiplicação-por-escalar)
    * [Traço](#traço)
-   * [Multiplicação](#multiplicação)
 4. [Teoremas](#teoremas)
 
 ## Noção de matriz

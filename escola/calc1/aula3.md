@@ -5,6 +5,14 @@ header-includes:
   - \usepackage{xcolor}
 ---
 
+
+1. [Operações elementares](#operações-elementares)
+2. [Caraterística](#caraterística)
+3. [Matriz ampliada](#matriz-ampliada)
+   * [Teoremas](#teoremas)
+   * [Grau de indeterminanção](#grau-de-indeterminanção)
+4. [Método de eliminação de Gauss](#método-de-eliminação-de-gauss)
+
 # Matrizes em escada 
 
 Diz-se que uma matriz $$A_{m\times n}$$, é uma matrize em escada se:

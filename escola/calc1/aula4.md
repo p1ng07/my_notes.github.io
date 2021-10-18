@@ -5,7 +5,11 @@ header-includes:
   - \usepackage{xcolor}
 ---
 
-# Matriz inversa
+1. [Matriz inversa](#matriz-inversa)
+   * [Método de Gauss-Jordan](#método-de-gauss-jordan)
+   * [Teoremas](#teoremas)
+
+## Matriz inversa
 
 Seja $$A$$ uma matriz de ordem $$n$$. A __inversa de $$A$$__ (quando existe) é
 representada por $$A^{-1}$$ e é uma matriz de ordem $$n$$ tal que $$AA^{-1}
@@ -45,7 +49,7 @@ Quando uma matriz $$A$$:
 - __tem inversa__, $$A$$ diz-se __inversível__ e __não singular__;
 - __não tem inversa__, diz-se __não inversível__ e __singular__;
 
-## Método de Gauss-Jordan
+### Método de Gauss-Jordan
 
 Um dos métodos possíveis para __descobrir a matriz inversa__ de dada matriz.  
 
@@ -59,7 +63,7 @@ Esquematicamente:
 
 $$ [A|I] -> ... -> [I|A^{-1}] $$
 
-## Teoremas
+### Teoremas
 
 - Seja $$A$$ uma matriz quadrada de ordem $$n$$, $$A$$ é __inversível quando
 e só quando__ $$r(A)=n$$;

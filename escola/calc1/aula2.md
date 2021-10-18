@@ -3,7 +3,13 @@ title: Aula 1 de calculo 1
 header-includes:
   - \usepackage{xcolor}
 ---
-# Multiplicação
+
+
+1. [Multiplicação](#multiplicação)
+   * [Pontência de uma matriz](#pontência-de-uma-matriz)
+2. [Comutáveis](#comutáveis)
+
+## Multiplicação
 
 $$ A . B $$ só é possível quando $$ An = Bm $$. \\
 O processo é multiplicar todas as linhas de $$A$$ pelas colunas de $$B$$.
@@ -34,7 +40,7 @@ $$
 \end{pmatrix}
 $$
 
-## Pontência de uma matriz
+### Pontência de uma matriz
 
 A exponênciação de uma matriz é apenas a multiplicação da matriz por si mesma.  
 
@@ -60,6 +66,6 @@ A^2 = \begin{bmatrix}
 \end{bmatrix}
 $$
 
-# Comutáveis
+## Comutáveis
 
 Duas matrizes dizem-se comutáveis se $$ AB = BA$$.

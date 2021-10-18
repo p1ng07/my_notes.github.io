@@ -4,7 +4,15 @@ title: Campo, carga elética
     -\usepackage{asmath}
 ---
 
-# Campo elétrico
+
+1. [Campo elétrico](#campo-elétrico)
+   * [Força de Coulomb](#força-de-coulomb)
+2. [Condução em sólidos, líquidos e gases](#condução-em-sólidos,-líquidos-e-gases)
+   * [Sólidos](#sólidos)
+   * [Bandas de energia](#bandas-de-energia)
+     * [Diferentes tipos de bandas de energia](#diferentes-tipos-de-bandas-de-energia)
+
+## Campo elétrico
 
 Define-se o campo elétrico como sendo a força exercida
 numa carga elétrica pontual q, colocada nesse ponto, por unidade de
@@ -21,7 +29,7 @@ ou neutra.
 Unidade:
 - C, Coulomb;
 
-## Força de Coulomb
+### Força de Coulomb
 
 A força de Coulomb é a força que atrai ou repele duas cargas.
 
@@ -36,9 +44,9 @@ $$\epsilon$$, permititividade elétrica.
 Duas cargas __atraem-se quando têm sinais diferentes__ e __repulsam-se quando
 têm sinais iguais.__
 
-# Condução em sólidos, líquidos e gases
+## Condução em sólidos, líquidos e gases
 
-## Sólidos
+### Sólidos
 
 Um eletrão de um átomo pode estar apenas num nível de energia.  
 Estes "níveis" de energia são bandas de energia, umas proibidas e 
@@ -51,7 +59,7 @@ chama-se __banda de valência__, (são os eletrões dessa banda que podem ser
 trocados ou partilhados com outros átomos).
 
 
-## Bandas de energia
+### Bandas de energia
 
 Acima da banda de valência existe a __banda de condução__, uma banda permitida 
 em que os eletrões estão tão fracamente ligados ao átomo que são considerados 
@@ -63,7 +71,7 @@ Para haver transferência entre bandas é necessária energia térmica:
 - A 0 Kelvin não existem eletrões na banda de condução.
 - Os eletrões não ficam tempo significativo na banda proibida.
 
-### Diferentes tipos de bandas de energia
+#### Diferentes tipos de bandas de energia
 
 __Isoladores__:
 - A banda proibida é muito larga, ou seja não haverá corrente elétrica a 

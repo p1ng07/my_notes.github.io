@@ -4,16 +4,25 @@ header-includes:
   - \usepackage{asmath}
 ---
 
-# Grandezas elétricas
+
+1. [Grandezas elétricas](#grandezas-elétricas)
+   * [Unidades](#unidades)
+   * [Corrente elétrica](#corrente-elétrica)
+     * [Correntes contínuas ou varíaveis](#correntes-contínuas-ou-varíaveis)
+   * [Efeito de Joule](#efeito-de-joule)
+   * [Resistência](#resistência)
+     * [Resistivade](#resistivade)
+
+## Grandezas elétricas
 
 Introdução às principais grandezas elétricas.
 
-## Unidades
+### Unidades
 - Intensidade, A (Ampere);
 - Potência, W (Wat);
 - Resistência, $$\Omega $$ (ohm);
 
-## Corrente elétrica
+### Corrente elétrica
 
 Unidade:
 - Ampere, A.
@@ -29,7 +38,7 @@ $$
 O sentido da corrente é do __terminal positivo para o terminal negativo__, sendo
 contrário ao movimento real dos eletrões.
 
-### Correntes contínuas ou varíaveis
+#### Correntes contínuas ou varíaveis
 
 Naturalmente podemos ter correntes contínuas (ou constantes) ou correntes 
 variáveis no tempo.
@@ -43,7 +52,7 @@ $$
 I(t) = \frac{dQ}{dt}
 $$
 
-## Efeito de Joule
+### Efeito de Joule
 
 Uma corrente ao percorrer um condutor vai provocar o aquecimento do mesmo.
 A este fenómeno é dado o nome de __efeito de Joule__.
@@ -56,7 +65,7 @@ $$
 
 Sendo $$R$$ a resistência de cada condutor.
 
-## Resistência
+### Resistência
 
 A resistência de cada material representa a maior ou menor dificuldade de 
 passagem de corrente nesse mesmo material.
@@ -70,7 +79,7 @@ $$
 
 $$\rho$$, é a resistividade de dado material.
 
-### Resistivade
+#### Resistivade
 
 A caraterística condutora de cada material pode ser dada por $$\rho$$, ou o
 seu inverso $$\gamma$$.
