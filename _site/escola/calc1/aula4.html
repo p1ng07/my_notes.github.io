@@ -35,31 +35,67 @@
             </header>
             <main class="page-content" aria-label="Content">
                 <div class="wrapper">
-                    <div class="home"><hr />
+                    <div class="home"><h1 id="matriz-inversa">Matriz inversa</h1>
 
-<h2 id="informações-sobre-curso">Informações sobre curso</h2>
-<h3 id="professores">Professores:</h3>
+<p>Seja \(A\) uma matriz de ordem \(n\). A <strong>inversa de \(A\)</strong> (quando existe) é
+representada por \(A^{-1}\) e é uma matriz de ordem \(n\) tal que \(AA^{-1}
+=A^{-1}A=I_n\), onde \(I_n\) é a matriz <strong>identidade</strong>.</p>
+
+<p>Exemplo:</p>
+
+\[B = \begin{bmatrix}
+1 &amp; 3 \\
+2 &amp; 7 
+\end{bmatrix}
+
+C = \begin{bmatrix}
+7 &amp; -3 \\
+-2 &amp; 1 
+\end{bmatrix}\]
+
+<p>B é a inversa de C, pois</p>
+
+\[BC = \begin{bmatrix}
+1 &amp; 0 \\ 
+0 &amp; 1 \\ 
+\end{bmatrix}
+= I^2
+\\
+CB = \begin{bmatrix}
+1 &amp; 0 \\ 
+0 &amp; 1 \\ 
+\end{bmatrix}
+= I^2\]
+
+<p>Quando uma matriz \(A\):</p>
 <ul>
-  <li>mgarapa@staff.uma.pt</li>
-  <li>teresag@uma.pt</li>
+  <li><strong>tem inversa</strong>, \(A\) diz-se <strong>inversível</strong> e <strong>não singular</strong>;</li>
+  <li><strong>não tem inversa</strong>, diz-se <strong>não inversível</strong> e <strong>singular</strong>;</li>
 </ul>
 
-<h3 id="frequências">Frequências:</h3>
+<h2 id="método-de-gauss-jordan">Método de Gauss-Jordan</h2>
+
+<p>Um dos métodos possíveis para <strong>descobrir a matriz inversa</strong> de dada matriz.</p>
+
+<p>Definição:</p>
+
+<p>Seja \(A\) uma matriz inversível(\(r(A)=n\)). Aplicamos operações elementares
+sobre as <strong>linhas,as colunas não podem ser afetadas,</strong> da matriz \([A|I_n]\),
+até \(A=I_n\). A matriz que se obtém à direita é a <strong>matriz inversa</strong>.</p>
+
+<p>Esquematicamente:</p>
+
+\[[A|I] -&gt; ... -&gt; [I|A^{-1}]\]
+
+<h2 id="teoremas">Teoremas</h2>
+
 <ul>
-  <li>17/11/2021</li>
-  <li>14/1/2021</li>
+  <li>Seja \(A\) uma matriz quadrada de ordem \(n\), \(A\) é <strong>inversível quando
+e só quando</strong> \(r(A)=n\);</li>
+  <li>Seja \(A\) uma matriz \(mn\). Então \(I_mA=A \text{e} AI_n=A\). Em particular,
+sendo B uma matriz de ordem \(n\) tem-se que \(BI_n=I_nB=B\).</li>
 </ul>
 
-<hr />
-
-<h2 id="lista-de-aulas">Lista de aulas</h2>
-
-<ol>
-  <li><a href="aula1">Noção de matriz e operações básicas</a></li>
-  <li><a href="aula2">Multiplicação de matriz</a></li>
-  <li><a href="aula3">Matrizes em escada, sistemas de equações lineares, método de gauss</a></li>
-  <li><a href="aula4">Matriz inversa, método de Gauss-Jordan</a></li>
-</ol>
  </div>
                 </div>
             </main><footer class="site-footer h-card">

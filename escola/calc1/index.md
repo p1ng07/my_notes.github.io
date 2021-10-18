@@ -20,3 +20,4 @@ title: Calculo 1
 1. [Noção de matriz e operações básicas](aula1)
 2. [Multiplicação de matriz](aula2)
 3. [Matrizes em escada, sistemas de equações lineares, método de gauss](aula3)
+4. [Matriz inversa, método de Gauss-Jordan](aula4)
