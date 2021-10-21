@@ -15,6 +15,10 @@ kramdown:
 theme: minima
 plugins:
   - jekyll-relative-links
+  - jekyll-titles-from-headings
+
+titles_from_headings:
+  enabled:     true
 
 defaults:
   -
@@ -22,6 +26,7 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "math"
+      strip_title: false
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
